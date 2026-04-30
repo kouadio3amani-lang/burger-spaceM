@@ -1,5 +1,6 @@
 /* header  */
 @media (max-width: 768px){
+    
     .hero-section{
         flex-direction: column;
         text-align: center;
@@ -41,4 +42,29 @@
         margin: 15px 0;
     }
     
+}
+@media (max-width: 900px) {
+    
+    header {
+            position: relative;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+    
+    .baniere {
+            grid-template-columns: 1fr;
+            align-items: center;
+        }
+    
+
+    .bar-1 {
+        min-height: 300px;
+        width: 208%;
+    }
+
+    .bar2,
+    .bar3 {
+        min-height: 200px;
+    }
 }
